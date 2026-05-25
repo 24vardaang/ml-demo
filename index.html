@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Wealth Portal - Account Statements</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; background: #f4f6f8; color: #1a1a1a; }
+  .header { background: #003366; color: white; padding: 16px 32px; }
+  .header h1 { margin: 0; font-size: 22px; font-weight: 600; }
+  .header .sub { font-size: 13px; opacity: 0.85; margin-top: 4px; }
+  .container { max-width: 900px; margin: 32px auto; background: white; border: 1px solid #d8dde2; border-radius: 4px; }
+  .section-title { padding: 16px 24px; border-bottom: 1px solid #e5e8eb; font-size: 16px; font-weight: 600; color: #003366; }
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: left; padding: 12px 24px; background: #f8f9fb; font-size: 12px; text-transform: uppercase; color: #5a6470; border-bottom: 1px solid #e5e8eb; }
+  td { padding: 14px 24px; border-bottom: 1px solid #eef0f3; font-size: 14px; }
+  tr:last-child td { border-bottom: none; }
+  td a { color: #0066cc; text-decoration: none; font-weight: 500; }
+  td a:hover { text-decoration: underline; }
+  .download-link { display: inline-block; padding: 6px 14px; background: #003366; color: white; border-radius: 3px; font-size: 13px; }
+  .download-link:hover { background: #004488; text-decoration: none !important; }
+  .footer { text-align: center; padding: 20px; font-size: 11px; color: #8a939c; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Wealth Management Portal</h1>
+  <div class="sub">Account Statements &amp; Documents</div>
+</div>
+<div class="container">
+  <div class="section-title">Available Statements - Past 3 Months</div>
+  <table>
+    <thead>
+      <tr>
+        <th>Account Holder</th>
+        <th>Account</th>
+        <th>Statement Period</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John Smith</td>
+        <td>Investor Choice CMA</td>
+        <td>March 2026</td>
+        <td><a class="download-link" href="ml_download_001.pdf" download>Download</a></td>
+      </tr>
+      <tr>
+        <td>Jane Doe</td>
+        <td>Working Capital Management Account</td>
+        <td>April 2026</td>
+        <td><a class="download-link" href="ml_download_002.pdf" download>Download</a></td>
+      </tr>
+      <tr>
+        <td>Robert Johnson</td>
+        <td>Traditional IRA</td>
+        <td>March 2026</td>
+        <td><a class="download-link" href="ml_download_003.pdf" download>Download</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="footer">Demo portal for automation testing &middot; Not a real financial institution</div>
+</body>
+</html>
