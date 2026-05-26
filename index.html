@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Wealth Portal - Home</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; background: #f4f6f8; color: #1a1a1a; }
+  .header { background: #003366; color: white; padding: 16px 32px; display: flex; justify-content: space-between; align-items: center; }
+  .header h1 { margin: 0; font-size: 22px; font-weight: 600; }
+  .nav { background: white; border-bottom: 1px solid #d8dde2; padding: 0 32px; display: flex; gap: 0; }
+  .nav a { display: block; padding: 16px 24px; color: #003366; text-decoration: none; font-size: 14px; font-weight: 500; border-bottom: 3px solid transparent; }
+  .nav a:hover { background: #f4f6f8; border-bottom-color: #003366; }
+  .nav a.active { border-bottom-color: #003366; }
+  .container { max-width: 1100px; margin: 32px auto; padding: 0 32px; }
+  .welcome { background: white; border: 1px solid #d8dde2; border-radius: 4px; padding: 32px; margin-bottom: 24px; }
+  .welcome h2 { margin: 0 0 8px; color: #003366; }
+  .welcome p { margin: 0; color: #5a6470; font-size: 14px; }
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .card { background: white; border: 1px solid #d8dde2; border-radius: 4px; padding: 24px; }
+  .card .label { font-size: 11px; text-transform: uppercase; color: #5a6470; margin-bottom: 8px; }
+  .card .value { font-size: 24px; font-weight: 600; color: #003366; }
+  .card .sub { font-size: 12px; color: #5a6470; margin-top: 4px; }
+  .footer { text-align: center; padding: 20px; font-size: 11px; color: #8a939c; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Wealth Management Portal</h1>
+  <div style="font-size: 13px; opacity: 0.85;">Welcome, Demo User</div>
+</div>
+<div class="nav">
+  <a href="index.html" class="active">Overview</a>
+  <a href="statements.html">Statements &amp; Documents</a>
+  <a href="#">Transactions</a>
+  <a href="#">Settings</a>
+</div>
+<div class="container">
+  <div class="welcome">
+    <h2>Account Overview</h2>
+    <p>Summary of your managed accounts and recent activity.</p>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <div class="label">Total Portfolio Value</div>
+      <div class="value">$1,691,357.01</div>
+      <div class="sub">3 accounts</div>
+    </div>
+    <div class="card">
+      <div class="label">YTD Performance</div>
+      <div class="value">+8.4%</div>
+      <div class="sub">Year-to-date return</div>
+    </div>
+    <div class="card">
+      <div class="label">Pending Documents</div>
+      <div class="value">3</div>
+      <div class="sub">Statements available</div>
+    </div>
+  </div>
+</div>
+<div class="footer">Demo portal for automation testing &middot; Not a real financial institution</div>
+</body>
+</html>
